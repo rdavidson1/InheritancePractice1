@@ -26,8 +26,16 @@ public class EmpMain {
         Emp1.setHoursWorked(38);
         
         SalariedEmployee Emp2 = new SalariedEmployee();
+        Emp2.setfName("Jane");
+        Emp2.setSalary(50000.00);
         
+        SalaryPlusCommissionEmployee Emp3 = new SalaryPlusCommissionEmployee();
+        Emp3.setfName("Jack");
+        Emp3.setCommission(3000);
+        Emp3.setSalary(45000);
         
-        System.out.println(Emp1.getfName() + "'s pay is $" + Emp1.getTotalPay());
+        System.out.println(Emp1.getfName() + "'s pay thius week is $" + Emp1.getTotalPay());
+        System.out.println(Emp2.getfName() + "'s weekly pay is $" + Emp2.getWeeklyPay());
+        System.out.println(Emp3.getfName() + "'s annual pau is $" + Emp3.getComPay());
     }
 }
