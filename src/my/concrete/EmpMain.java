@@ -26,6 +26,6 @@ public class EmpMain {
         Emp1.setHoursWorked(38);
         
         
-        System.out.println("Pay is " + Emp1.getTotalPay());
+        System.out.println("Pay is " );
     }
 }
