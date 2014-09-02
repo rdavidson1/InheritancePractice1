@@ -5,7 +5,7 @@
  */
 
 package my.concrete;
-
+//java.util.Scanner;
 /**
  *
  * @author Ryan
@@ -14,7 +14,7 @@ public class EmpMain {
     
 
     public static void main(String[] args) {
-//        Scanner keyboard = New Scanner(System.in);
+        //Scanner keyboard = New Scanner(System.in);
         
         HourlyEmployee Emp1 = new HourlyEmployee();
         Emp1.setAge(24);
@@ -25,7 +25,9 @@ public class EmpMain {
         Emp1.setHourlyRate(20.0);
         Emp1.setHoursWorked(38);
         
+        SalariedEmployee Emp2 = new SalariedEmployee();
         
-        System.out.println("Pay is " );
+        
+        System.out.println(Emp1.getfName() + "'s pay is $" + Emp1.getTotalPay());
     }
 }
