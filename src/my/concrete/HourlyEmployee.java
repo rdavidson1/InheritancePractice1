@@ -13,6 +13,9 @@ package my.concrete;
 public class HourlyEmployee extends Employee{
     private double hoursWorked;
     private double hourlyRate;
+    private double hourPay;
+    
+   
 
     public double getHoursWorked() {
         return hoursWorked;
@@ -28,5 +31,10 @@ public class HourlyEmployee extends Employee{
 
     public void setHourlyRate(double hourlyRate) {
         this.hourlyRate = hourlyRate;
+    }
+    
+    public double getTotalPay() {
+        hourPay = hoursWorked * hourlyRate;
+        return hourPay;
     }
 }
