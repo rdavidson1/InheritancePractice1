@@ -12,4 +12,18 @@ package myinterface;
  */
 public abstract class SalaryPlusCommissionEmployee extends SalariedEmployee{
     
+    private double commission;
+    
+    
+    public double getCommission() {
+        return commission;
+    }
+
+    public void setCommission(double commission) {
+        this.commission = commission;
+    }
+    
+    public double getComPay(){
+        return commission + getSalary();
+    }
 }
