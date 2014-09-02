@@ -10,6 +10,6 @@ package myabstract;
  *
  * @author Ryan
  */
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee{
     
 }
