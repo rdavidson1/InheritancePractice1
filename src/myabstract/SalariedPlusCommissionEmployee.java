@@ -11,5 +11,18 @@ package myabstract;
  * @author Ryan
  */
 public class SalariedPlusCommissionEmployee extends SalariedEmployee{
+    private double commission;
     
+    
+    public double getCommission() {
+        return commission;
+    }
+
+    public void setCommission(double commission) {
+        this.commission = commission;
+    }
+    
+    public double getComPay(){
+        return commission + getSalary();
+    }
 }

@@ -16,13 +16,9 @@ public abstract class Employee {
     private String lName;
     private int age;
     
-    public int getAge() {
-        return age;
-    }
+    public abstract int getAge();
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+    public abstract void setAge(int age);
    
 
     public String getEmpId() {
