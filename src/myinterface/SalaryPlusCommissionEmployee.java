@@ -23,7 +23,7 @@ public abstract class SalaryPlusCommissionEmployee extends SalariedEmployee{
         this.commission = commission;
     }
     
-    public double getComPay(){
+    public double getCommPay(){
         return commission + getSalary();
     }
 }

@@ -12,11 +12,15 @@ package myinterface;
  */
 public abstract class HourlyEmployee implements Employee{
     private String fName;
+
+    
     private String lName;
     private String empId;
     private int Age;
     private double hourlyRate;
     private double hoursWorked;
+    
+   
     
     public double getHPay() {
         return hoursWorked * hourlyRate;

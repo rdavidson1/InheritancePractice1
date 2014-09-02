@@ -10,7 +10,7 @@ package myinterface;
  *
  * @author Ryan
  */
-public abstract class SalariedEmployee implements Employee{
+public class SalariedEmployee implements Employee{
   private String fName;
   private String lName;
   private String empId;
@@ -60,7 +60,7 @@ public abstract class SalariedEmployee implements Employee{
     public String getEmpId() {
         return empId;
     }
-
+    
     public void setEmpId(String empId) {
         this.empId = empId;
     }
@@ -69,8 +69,28 @@ public abstract class SalariedEmployee implements Employee{
     public int getAge() {
         return Age;
     }
-
+    
     public void setAge(int Age) {
         this.Age = Age;
+    }
+
+    @Override
+    public void setfName() {
+        
+    }
+
+    @Override
+    public void setlName() {
+        
+    }
+
+    @Override
+    public void setEmpId() {
+        
+    }
+
+    @Override
+    public void setAge() {
+        
     }
 }

@@ -34,8 +34,8 @@ public class EmpMain {
         Emp3.setCommission(3000);
         Emp3.setSalary(45000);
         
-        System.out.println(Emp1.getfName() + "'s pay thius week is $" + Emp1.getTotalPay());
+        System.out.println(Emp1.getfName() + "'s pay this week is $" + Emp1.getTotalPay());
         System.out.println(Emp2.getfName() + "'s weekly pay is $" + Emp2.getWeeklyPay());
-        System.out.println(Emp3.getfName() + "'s annual pau is $" + Emp3.getComPay());
+        System.out.println(Emp3.getfName() + "'s annual pay is $" + Emp3.getComPay());
     }
 }
