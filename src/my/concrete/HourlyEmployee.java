@@ -11,5 +11,22 @@ package my.concrete;
  * @author Ryan
  */
 public class HourlyEmployee extends Employee{
-    
+    private double hoursWorked;
+    private double hourlyRate;
+
+    public double getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public void setHoursWorked(double hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
+    public double getHourlyRate() {
+        return hourlyRate;
+    }
+
+    public void setHourlyRate(double hourlyRate) {
+        this.hourlyRate = hourlyRate;
+    }
 }
