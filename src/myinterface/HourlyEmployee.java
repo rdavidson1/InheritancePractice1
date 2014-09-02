@@ -10,6 +10,6 @@ package myinterface;
  *
  * @author Ryan
  */
-public class HourlyEmployee {
+public class HourlyEmployee implements Employee{
     
 }

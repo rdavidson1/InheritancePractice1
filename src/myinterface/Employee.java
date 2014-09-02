@@ -10,6 +10,21 @@ package myinterface;
  *
  * @author Ryan
  */
-public class Employee {
+public interface Employee {
     
+    public abstract String getfName();
+    
+    public abstract void setfName();
+    
+    public abstract String getlName();
+    
+    public abstract void setlName();
+    
+    public abstract String getEmpId();
+    
+    public abstract void setEmpId();
+    
+    public abstract int getAge();
+    
+    public abstract void setAge();
 }
